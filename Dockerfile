@@ -13,5 +13,4 @@ RUN curl -L https://storage.googleapis.com/kubernetes-release/release/$(curl -s 
 
 USER 1001
 
-ENTRYPOINT ["kubectl"]
-CMD ["help"]
+CMD ["tail", "-f", "/etc/hosts"]
