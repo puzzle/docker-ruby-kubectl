@@ -10,7 +10,7 @@ RUN curl -L https://storage.googleapis.com/kubernetes-release/release/$(curl -s 
  && chmod +x /usr/local/bin/kubectl
  
 RUN curl -L https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz -o /tmp/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz \
- && pushd /tmp
+ && pushd /tmp \
  && tar -xzf openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz \
  && mv /tmp/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit/oc /usr/local/bin/oc \
  && popd

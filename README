@@ -1,3 +1,3 @@
 # kubectl for a ruby-image
 
-Have all the goodness of Ruby but the power of kubectl as well, without bloating your app repository with a huge binary standalone client.
+Have all the goodness of Ruby but the power of kubectl and oc as well, without bloating your app repository with huge binary standalone clients.
