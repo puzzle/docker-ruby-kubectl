@@ -1,4 +1,4 @@
-FROM centos/ruby-22-centos7
+FROM centos/ruby-27-centos7
 LABEL io.k8s.description="Ruby with kubectl and oc" \
       io.k8s.display-name="pitc-ruby-kubectl"
 
